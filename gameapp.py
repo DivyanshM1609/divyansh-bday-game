@@ -13,6 +13,7 @@ player_names = st_tags_sidebar(
     key='1') 
 
 st.title(f"WELCOME TO DIVYANSH'S BDAY CELEBRATION")
+st.write(f"Please add player names using the sidebar")
 if st.button('S H O W'):
     if( len(set(player_names)) <=2):
         st.write(f"Add more players")    
